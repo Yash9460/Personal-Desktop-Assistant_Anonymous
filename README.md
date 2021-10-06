@@ -6,7 +6,7 @@
 
 ## About Anonymous : 
 
-Anonymous is an AI personal voice assistant service built using Pychram. It can understand human speech and perform basic task designed by the client.
+Anonymous is an AI personal voice assistant service built using Python. It can understand human speech and perform basic task designed by the client.
 
 When the user specify the appropriate trigger words , The Anonymous gets activated and executes the user commands.
 
