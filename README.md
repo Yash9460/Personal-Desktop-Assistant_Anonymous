@@ -14,9 +14,13 @@ Anonymous AI Voice assistant:"Loading your Assistant Anonymous.... Hello, Good M
 
 ### The implemented Voice assistant can perform the following tasks:
 
-- Opens a wepage : Youtube , G-Mail , Google Chrome , StackOverflow, wikipedia
+- Opens a wepage : Youtube , G-Mail , Google Chrome , StackOverflow
 
       Human : Hey Anonymous, Open Youtube
+
+- Searching information on wikipedia
+
+      Human : Who is Alan walker
 
 - Predicts time
     
