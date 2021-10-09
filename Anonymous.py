@@ -57,10 +57,11 @@ if __name__=='__main__':
             speak('your personal assistant Anonymous is shutting down,Good bye')
             print('your personal assistant Anonymous is shutting down,Good bye')
             break     
-        if 'wikipedia' in statement:
-            webbrowser.open_new_tab("https://www.wikipedia.org")
-            speak("Wikipedia is open now")
-            time.sleep(5)
+        if 'who is' in statement:
+            person = statement.replace('who is','')
+            info = wikipedia.summary(person,1)
+            print(info)
+            speak(info)
 
         elif 'open youtube' in statement:
             webbrowser.open_new_tab("https://www.youtube.com")
